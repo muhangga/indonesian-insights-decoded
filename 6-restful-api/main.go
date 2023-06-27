@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	configuration := config.New("../.env")
+	configuration := config.New(".env")
 
 	initiate := app.NewInitializedServer(configuration)
 
